@@ -9,13 +9,28 @@ Bu Python uygulaması, **Weatherstack API** kullanarak gerçek zamanlı hava dur
 - ✅ **Kolay Kullanım** – Terminal üzerinden basit bir giriş ile çalıştırabilirsiniz.  
 
 ## 🚀 Kurulum ve Kullanım  
-
 ### 1️⃣ Depoyu Klonla  
 git clone https://github.com/kullanici-adin/weather-activity-suggester.git
 cd weather-activity-suggester
-2️⃣Gerekli Paketleri Yükle
+
+2️⃣ Gerekli Paketleri Yükle
 Bu proje, requests kütüphanesini kullanır. Eğer yüklü değilse, şu komutla yükleyebilirsin:
 pip install requests
 3️⃣ Programı Çalıştır
 python main.py
 Şehir adını girdikten sonra hava durumu ve önerilen etkinliği görebilirsin! 🌍🌞
+
+🎯 Örnek Kullanım
+Hava durumu için bir şehir adı girin: İstanbul
+İstanbul için Hava Durumu:
+Sıcaklık: 18°C
+Durum: Parçalı bulutlu ☁️
+Öneri: Kafede oturup kitap okuyabilirsiniz. 📖☕
+
+🛠 Geliştirme Planları
+🔹 Hava tahminini saatlik veya günlük olarak genişletmek
+🔹 Daha fazla etkinlik önerisi eklemek
+🔹 Farklı hava durumu API'leriyle entegrasyon sağlamak
+
+📜 Lisans
+Bu proje MIT Lisansı ile sunulmaktadır. Kullanabilir, değiştirebilir ve geliştirebilirsin! 🚀
